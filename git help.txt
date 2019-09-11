@@ -1,0 +1,18 @@
+git init	//initialized the repository from my local drive
+
+git config --global user.name 'PUT YOUR USERNAME'	//link git to your username
+git config --global user.email 'PUT YOUR EMAIL'	//link git to your email
+
+git status	//gives the status of committed
+git rm --cached 'WHAT YOU WANT REMOVED'
+
+git add *	//adds everything to index
+git commit -m 'PUT YOUR COMMENT HERE'	//commits everything that was added
+git push origin master	//allows you to pull your local repository code to shared repository code
+git pull origin master	//pulls in most recent code in online repository
+
+touch WHAT_YOU_WANT_TO_MAKE		//use this to create a file
+
+git remote add https://github.com/AlejandroVasquezNull/wmsr.git	//added the remote repository to my git
+git remote add origin https://github.com/AlejandroVasquezNull/wmsr.git
+git push -u origin master	//(this didn't work for me)
