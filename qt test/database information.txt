@@ -1,0 +1,12 @@
+DB Instance:
+	wms-database-3
+
+username:
+	root
+password:
+	samuraiedge
+
+endpoint/hostname:
+	wms-database-3.cnuuwsy8dtiz.us-west-1.rds.amazonaws.com
+Port:
+	3306
