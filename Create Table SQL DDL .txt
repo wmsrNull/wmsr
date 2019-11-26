@@ -1,0 +1,62 @@
+
+
+
+
+CREATE TABLE `admin` (
+  `adminID` varchar(45) NOT NULL,
+  `aName` varchar(45) NOT NULL,
+  `aMail` varchar(45) NOT NULL,
+  PRIMARY KEY (`adminID`)
+
+
+CREATE TABLE `customer` (
+  `customerID` varchar(45) NOT NULL,
+  `cName` varchar(45) NOT NULL,
+  `cAdress` varchar(45) NOT NULL,
+  `cCity` varchar(45) NOT NULL,
+  PRIMARY KEY (`customerID`)
+
+
+CREATE TABLE `employee` (
+  `employeeID` varchar(45) NOT NULL,
+  `eName` varchar(45) NOT NULL,
+  `eMail` varchar(45) NOT NULL,
+  PRIMARY KEY (`employeeID`)
+
+
+CREATE TABLE `employee` (
+  `employeeID` varchar(45) NOT NULL,
+  `eName` varchar(45) NOT NULL,
+  `eMail` varchar(45) NOT NULL,
+  PRIMARY KEY (`employeeID`)
+
+
+CREATE TABLE `inbound` (
+  `itemID` varchar(45) NOT NULL,
+  `dateArrived` date NOT NULL,
+  `iQuantity` int(11) NOT NULL,
+  `suggestedLocation` varchar(50) NOT NULL,
+  PRIMARY KEY (`itemID`)
+
+
+
+CREATE TABLE `outbound` (
+  `orderNumber` varchar(45) NOT NULL,
+  `itemID` varchar(45) NOT NULL,
+  `pickedLocation` varchar(45) NOT NULL,
+  `oQuantity` varchar(45) NOT NULL,
+  `deliverByDate` date NOT NULL,
+  `customerID` varchar(45) NOT NULL,
+  PRIMARY KEY (`orderNumber`)
+
+
+CREATE TABLE `storage` (
+  `storageLocationID` varchar(50) NOT NULL,
+  `storageLocationName` varchar(45) NOT NULL,
+  `itemName` varchar(45) NOT NULL,
+  `stockQuantity` varchar(45) NOT NULL,
+  PRIMARY KEY (`storageLocationID`)
+
+
+
+
