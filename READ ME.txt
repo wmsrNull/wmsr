@@ -1,0 +1,124 @@
+﻿Readme.txt
+/***********************************************************************************************/
+Github Repository Link:
+https://github.com/wmsrNull/wmsr.git
+
+
+/***********************************************************************************************/
+What is needed to run the programs:
+You must download MySql Workbench 8.0 and install all plugins.
+You must download the newest version of Visual Studios with all the C++ and MySql Plugins.
+
+
+(You may not need everything… but we downloaded it all just to be safe.)
+
+
+/***********************************************************************************************/
+How to run the projects:
+Depending on your machine, running the program may take different steps.
+
+
+one solution is to:
+        click the GUI source code folder -> click a project file -> click the solution file (.sln file).
+another solution is to:
+        click the GUI source code folder -> click a project file -> click the visual studios c++ file (.vcxproj) file.
+
+
+Click the [▻ Local Window Debugger] at the top.
+
+
+A description of how to use each program is included in the unitTests.txt.
+
+
+all programs were tested and ran correctly before uploading.
+
+
+/***********************************************************************************************/
+File Names and Their Descriptions:
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+GUI source code folder:
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+ProjectClr file: (showed the login and delete functionality)
+Log’s in responsibility: 
+Once the user opens the application, they will be greeted with the login page.
+For our application, it is necessary for the login page to verify the authentication of the user.
+Once the username and the password is correct, the user is granted the privilege to view and make changes to the inventory, otherwise they will see an error log in message.
+
+
+Delete responsibility:
+The delete part is self explanatory.
+The way we categorize our database is each inventory will have an ID as their primary key.
+Therefore, in order to delete stuff, the user only needs to use the ID number.
+Employees and admin can't be deleted from the database because we want to keep their record due to security reasons.
+The user is also given the option the sign out once they have completed their tasks.           
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Menu:
+This folder contains the buttons of the menu. It contains all of the modules that we have in our project. It has inbound, outbound, inventory and shipped reports. It also has the edit and delete tool button. Clicking on the button will take you to the next page.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Project1:
+This folder contains the inbound module. Here the user has 3 text boxes that are labeled and tell the user what type of data should be input. (For example quantity). The text boxes are tied to an insert SQL statement. The data entered will populate in the inbound table. The module also has a view table button to confirm that the entry was sent successfully. 
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Update:
+This folder contains a form that can make adjustments to the customers on the customer table. It makes it easier for the user to update the customers information.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+delta:
+This folder contains a storage form that is used to do query searches with the storage table.
+Its main function is to just see data within the database.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+sigma:
+This folder contains an outbound form that is used to query searches with the outbound table.
+It allows you to delete from the outbound table and send information into the report table.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+ShippedOrders:
+This folder contains a form that allows the user to be able to view items that were shipped out. This pulls the data from the report table to be easily viewed by the user.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Slides folder:
+This folder contains all the slides we used for our demos.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Reports folder:
+This folder contains all the reports we sent to the customer.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Source code:
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+[Create Table SQL DDL .txt]:
+This is the file that creates all the tables for our database.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Database Design Entities and Relationships:
+This was our initial idea of all the tables, entities, and relationships we would use.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+Database SQL Values.txt:
+This is the file that gave us all our mock data in the database.
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+[git help.txt]:
+This was just put here as a reminder on some of the git commands to make us more comfortable with how to do things.
