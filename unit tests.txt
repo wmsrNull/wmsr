@@ -1,0 +1,121 @@
+﻿Unit Tests for legacywms Group5 C++[a]:
+Depending on your machine, running the program may take different steps.
+
+
+one solution is to:
+        click the GUI source code folder -> click a project file -> click the solution file (.sln file).
+another solution is to:
+        click the GUI source code folder -> click a project file -> click the visual studios c++ file (.vcxproj) file.
+
+
+all programs were tested and ran correctly before uploading.
+
+
+/****************************************************************************************************/
+Testing:
+delta:
+        the delta project folder is used to see data in the storage table.
+
+
+        to get a quick overview of everything, click [Run Query] button.
+
+
+        to see all the low active products in the database, click the [Low Active Product button].
+        to test the Query Condition, try:
+                                        where stockQuantity = '9'
+        that should cover everything for this part of the project.
+
+
+/****************************************************************************************************/
+Menu[b]:
+
+
+The Menu folder is used to move between forms
+
+
+Each button is linked to another module oncle clicked
+/****************************************************************************************************/
+Project1[c]:
+
+
+This folder is used to enter new entries into the database
+
+
+To view what is inbound click view table button
+
+
+The datagrid will display the entries in the inbound table
+
+
+To enter new data fill out the 3 text boxes (ItemID,Date,Qty)
+
+
+Ex. ItemID = 12456  DateArrived: 2019-12-12  Qty: 50
+
+
+Once filled, hit the enter button, this button is tied to an insert SQL statement
+
+
+The database will now be updated
+
+
+The user will receive a prompt stating that the entry was successful
+
+
+To view the new entry in the table, hit the view table button again
+
+
+The new entry should now be visible
+
+
+/****************************************************************************************************/
+ProjectClr[d]:
+Log in: 
+        To log in type in the correct username in the textbox, then type in the correct password 
+
+
+and click log in. 
+
+
+To sign out of the WMS database click the button “sign out”.
+
+
+Delete:
+        In the delete page, there are four textbox, “customer”, “inbound”, “outbound”, and 
+
+
+“item”. Each one is being programmed to a particular inventory that can be deleted. To 
+delete items, type in the specific ID number inside the textbox and click on the “delete” 
+
+
+button.  
+
+
+/****************************************************************************************************/
+ShippedOrders[e]:
+                  The ShippedOrders project folder gives a report of what orders have been shipped. By clicking the report button the user will be able to see what has been shipped.
+
+
+/****************************************************************************************************/
+sigma:
+        the sigma project folder is used to see data in the outbound table.
+        
+        to get a quick overview of everything, click the [Run Query button].
+        to test the query Condition, try:
+                                        where oQuantity = '4'
+        
+        if you see something you want to delete from outbound and put into the report table, fill in the textboxes on the bottom left.
+        an example would be:
+                                where itemID = '4111259', quantity = '24' and deliverByDate = '2019-12-05'.
+        then click the [Ship] button to mark the product as shipped from outbound.
+        then click the [Delete From Outbound] button to remove the table from outbound.
+/****************************************************************************************************/
+Update[f]:
+        The Update project folder allows the user to be able to update the customer information. 
+        
+        Enter the customerID of the customer that needs updated information.
+        After that fill in the rest of the boxes to make the changes to the information that need to be made.
+        Once the boxes are filled with the necessary adjustments click the Update button.
+        To view the table after click the viewtable button.
+
+
