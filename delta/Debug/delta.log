@@ -1,0 +1,6 @@
+﻿  StorageForm.cpp
+C:\Users\Samur\Desktop\GUI source code\delta\StorageForm.h(168,19): warning C4101: 'myReader': unreferenced local variable
+C:\Users\Samur\Desktop\GUI source code\delta\StorageForm.h(194,19): warning C4101: 'myReader': unreferenced local variable
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  StorageForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  delta.vcxproj -> C:\Users\Samur\Desktop\GUI source code\delta\Debug\delta.exe
