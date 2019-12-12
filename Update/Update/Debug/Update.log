@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+C:\Users\Samur\Desktop\GUI source code\Update\Update\MyForm.h(266,19): warning C4101: 'myReader': unreferenced local variable
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Update.vcxproj -> C:\Users\Samur\Desktop\GUI source code\Update\Update\Debug\Update.exe
