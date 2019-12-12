@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MetaGen.targets(91,5): warning : Required file "C:\PROGRAM FILES (X86)\MYSQL\MYSQL CONNECTOR NET 6.10.5\ASSEMBLIES\V4.5.2\MYSQL.DATA.DLL" is missing.
+  MyForm.cpp
+F:\ShippedOrders\MyForm.h(128,20): warning C4101: 'myReader': unreferenced local variable
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ShippedOrders.vcxproj -> F:\ShippedOrders\Debug\ShippedOrders.exe
