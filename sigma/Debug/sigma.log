@@ -1,0 +1,6 @@
+﻿  OutboundForm.cpp
+C:\Users\Samur\Desktop\sigma\OutboundForm.h(399,20): warning C4101: 'myReader': unreferenced local variable
+C:\Users\Samur\Desktop\sigma\OutboundForm.h(422,20): warning C4101: 'myReader': unreferenced local variable
+C:\Users\Samur\Desktop\sigma\OutboundForm.h(445,19): warning C4101: 'myReader': unreferenced local variable
+  OutboundForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  sigma.vcxproj -> C:\Users\Samur\Desktop\sigma\Debug\sigma.exe
